@@ -1,10 +1,17 @@
 [project]
 name = "image-gen"
 version = "0.1.0"
-description = "Add your description here"
+description = "MCP server enabling Image Generation for LLMs with Flux.1 Schnell, built in Python and integrated with Together AI."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "httpx>=0.28.1",
     "mcp>=1.1.2",
 ]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+image-gen = "image_gen:main"
