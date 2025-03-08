@@ -1,7 +1,7 @@
 [project]
 name = "image-gen"
-version = "0.1.0"
-description = "MCP server enabling Image Generation for LLMs with Flux.1 Schnell, built in Python and integrated with Together AI."
+version = "0.1.1"
+description = "MCP server enabling Image Generation for LLMs, built in Python and integrated with Together AI."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
