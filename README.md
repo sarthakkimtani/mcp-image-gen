@@ -1,6 +1,6 @@
 # Image Generation MCP Server
 
-A Model Context Protocol (MCP) server that enables seamless generation of high-quality images using the Flux.1 Schnell model via Together AI. This server provides a standardized interface to specify image generation parameters.
+A Model Context Protocol (MCP) server that enables seamless generation of high-quality images via Together AI. This server provides a standardized interface to specify image generation parameters.
 
 ## Features
 
@@ -55,6 +55,10 @@ Generates an image based on the given textual prompt and optional dimensions.
   "height": {
     "type": "integer",
     "description": "Height of the generated image in pixels (optional)"
+  },
+  "model": {
+    "type": "string",
+    "description": "The exact model name as it appears in Together AI. If incorrect, it will fallback to the default model (black-forest-labs/FLUX.1-schnell)."
   }
 }
 ```
