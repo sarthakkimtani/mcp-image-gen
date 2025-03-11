@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server that enables seamless generation of high-quality images via Together AI. This server provides a standardized interface to specify image generation parameters.
 
+<a href="https://glama.ai/mcp/servers/o0137xiz62">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/o0137xiz62/badge" alt="Image Generation Server MCP server" />
+</a>
+
 ## Features
 
 - High-quality image generation powered by the Flux.1 Schnell model
